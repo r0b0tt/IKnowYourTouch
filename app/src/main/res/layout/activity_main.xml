@@ -3,9 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity"
-    android:gravity="center">
+    tools:context=".MainActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,14 +23,12 @@
             android:id="@+id/tv_tap"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:gravity="center"
             android:padding="16dp"
             android:text="@string/screen_text"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            android:gravity="center"
             android:textColor="#757575"
-            />
-
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
 
     </LinearLayout>
